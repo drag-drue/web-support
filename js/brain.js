@@ -18,3 +18,7 @@ overlay.addEventListener("click", () => {
     drawer.classList.remove("open");
     overlay.classList.remove("show");
 });
+
+function openGuide() {
+    window.location.href = "createMzigo.html";
+}
