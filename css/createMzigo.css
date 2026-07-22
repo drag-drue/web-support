@@ -1,0 +1,178 @@
+/* ===========================
+   MAIN CONTENT
+=========================== */
+
+.main-content{
+    max-width:1000px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.main-content h1{
+    font-size:2.3rem;
+    color:#222;
+    margin-bottom:15px;
+}
+
+.description{
+    font-size:1.05rem;
+    color:#666;
+    line-height:1.7;
+    margin-bottom:40px;
+}
+
+/* ===========================
+   STEPS
+=========================== */
+
+.steps{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+}
+
+.step{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    border:1px solid #e5e5e5;
+    box-shadow:0 3px 10px rgba(0,0,0,.05);
+}
+
+.step h2{
+    font-size:1.4rem;
+    color:#1d3557;
+    margin-bottom:15px;
+}
+
+.step p{
+    color:#555;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+/* ===========================
+   SINGLE IMAGE
+=========================== */
+.step > img{
+    display:block;
+    width:100%;
+    max-width:700px;
+    margin:20px auto 0;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+.small-image{
+    width:150px !important;
+    height:auto;
+    display:block;
+    margin:20px auto;
+}
+
+
+
+/* ===========================
+   BEFORE / AFTER
+=========================== */
+
+.comparison{
+    display:flex;
+    gap:25px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.comparison div{
+    flex:1;
+    min-width:300px;
+}
+
+.comparison h3{
+    text-align:center;
+    margin-bottom:10px;
+    color:#444;
+    font-size:1rem;
+}
+
+.comparison img{
+    width:100%;
+    border-radius:10px;
+    border:1px solid #ddd;
+    transition:.3s;
+}
+
+.comparison img:hover{
+    transform:scale(1.02);
+}
+
+/* ===========================
+   NOTES
+=========================== */
+
+.note{
+    margin-top:20px;
+    padding:15px 18px;
+    background:#fff9e6;
+    border-left:5px solid #f4b400;
+    border-radius:8px;
+    color:#555;
+}
+
+/* ===========================
+   SUCCESS MESSAGE
+=========================== */
+
+.success{
+    margin-top:50px;
+    padding:25px;
+    background:#eaf8ee;
+    border-left:6px solid #2e7d32;
+    border-radius:10px;
+}
+
+.success h2{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.success p{
+    line-height:1.7;
+    color:#444;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+    .main-content{
+        padding:15px;
+    }
+
+    .main-content h1{
+        font-size:1.8rem;
+    }
+
+   @media (max-width:768px){
+
+    .comparison{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:12px;
+    }
+
+    .comparison div{
+        min-width:0;
+    }
+
+    .comparison h3{
+        font-size:0.9rem;
+    }
+
+}
+
+    .step{
+        padding:20px;
+    }
+}

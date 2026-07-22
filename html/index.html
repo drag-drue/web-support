@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Help Center</title>
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/body.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
@@ -14,8 +15,9 @@
 
     <header>
         <div class="logo">
-            <img src="/images/tktLogo.jpg" alt="TKT Logo">
+            <img src="/images/mzigo-logo.jpg" alt="Logo">
             <span>Help Center</span>
+            <span class="page-title">| Mzigo</span>
         </div>
         <button id="menu-btn">
             <i class="fa-solid fa-bars"></i>
@@ -23,6 +25,7 @@
     </header>
 
     <div id="overlay"></div>
+    
 
     <nav id="drawer">
         <div class="drawer-header">
@@ -65,7 +68,7 @@
     </nav>
 
     <main>
-
+       
         <h2>How can we help you?</h2>
 
         <div class="search-box">
@@ -76,11 +79,12 @@
         <h3>Popular Topics</h3>
 
         <div class="topics">
-
+         <a href="/html/createMzigo.html" class="card-link">
             <div class="card">
                 <i class="fa-solid fa-message"></i>
                 <p>Get Started</p>
             </div>
+            </a>
 
             <div class="card">
                 <i class="fa-solid fa-lock"></i>
@@ -107,14 +111,22 @@
 
         <h3>Popular Articles</h3>
 
-        <div class="articles">
-            <a href="#">How to make a video call</a>
-            <a href="#">How to stay safe on WhatsApp</a>
-            <a href="#">About temporarily banned accounts</a>
-            <a href="#">About two-step verification</a>
-            <a href="#">How to restore your chat history</a>
-        </div>
+<div class="articles-section">
 
+    <div class="articles">
+        <a href="/html/createMzigo.html">How to process a New Mzigo</a>
+        <a href="#">How to stay safe on WhatsApp</a>
+        <a href="#">About temporarily banned accounts</a>
+        <a href="#">About two-step verification</a>
+        <a href="#">How to restore your chat history</a>
+    </div>
+
+    <div class="article-image">
+        <img src="/images/Helpful sign-bro.svg"
+             alt="Customer Support Illustration">
+    </div>
+
+</div>
     </main>
 
     <script src="/js/brain.js"></script>
